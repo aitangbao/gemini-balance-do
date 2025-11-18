@@ -8,8 +8,7 @@
 	"main": "src/index.ts",
 	"compatibility_date": "2025-08-05",
     "compatibility_flags": [
-      "nodejs_compat",
-      "disable_dynamic_dispatch"
+      "nodejs_compat"
     ],
 	"keep_vars": true,//部署时保留 Cloudflare 控制台中设置的变量值，不被 vars 字段覆盖
 	"migrations": [
